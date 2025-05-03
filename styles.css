@@ -5,18 +5,23 @@
 }
 
 body{
-    background-color: #bbc6fa;
+    background-image:url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
 }
 
 .quote-box{
-    background: #b4ebd3;
+    color:#fff;
+    font-family:"Open Sans", sans-serif;;
+    background: #565a58b1;
     width: 700px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 40px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 10px 20px 0 rgba(5, 54, 60, 0.15);
+    box-shadow:  0 5px 20px 0 rgb(255, 255, 255);
 }
